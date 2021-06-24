@@ -1,0 +1,26 @@
+/*? UTILITY ?*/
+/** Background - utility **/
+.bg-no-repeat {
+    background-repeat: no-repeat;
+}
+.bg-center {
+    background-position: center;
+}
+.bg-size {
+    background-size: cover;
+}
+
+
+/* BODY */
+
+
+/** JAMBO - 1 **/
+#text-jambo-1 {
+    height: calc(100vh - 112px);
+    color: #fff;
+}
+#jambo-1 .bg-jambo {
+    background-image: url("../img/jumbo-bg.png");
+    height: calc(100vh - 112px);
+    margin-top: 112px;
+}
