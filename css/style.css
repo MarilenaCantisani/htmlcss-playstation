@@ -25,6 +25,9 @@
 .bg-dark-blue {
     background-color: #161c3b;
 }
+.bg-blue {
+    background-color: #00439c;
+}
 /** Border utility **/
 .no-border {
     border: 0;
@@ -32,6 +35,9 @@
 /** Size utility **/
 .h-60 {
     height: 60vh;
+}
+.w-200 {
+    max-width: 200px;
 }
 
 /* BODY */
