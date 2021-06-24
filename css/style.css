@@ -14,7 +14,7 @@
 /* BODY */
 
 
-/** JAMBO - 1 **/
+/** JAMBO - 1  section**/
 #text-jambo-1 {
     height: calc(100vh - 112px);
     color: #fff;
@@ -24,3 +24,4 @@
     height: calc(100vh - 112px);
     margin-top: 112px;
 }
+
