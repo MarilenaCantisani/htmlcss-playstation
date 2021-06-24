@@ -13,27 +13,23 @@
 .bg-grey {
     background-color: #1f1f1f;
 }
-
 /** Border utility **/
 .no-border {
     border: 0;
 }
+
+
 /* BODY */
-
-
-/** JAMBO - 1  section **/
+/** JAMBO-1  section **/
 #text-jambo-1 {
     height: calc(100vh - 112px);
 }
-
 #jambo-1 .bg-jambo {
     background-image: url("../img/jumbo-bg.png");
     height: calc(100vh - 112px);
     margin-top: 112px;
 }
-
-
-/** JAMBO - 1  section **/
+/** JAMBO-2  section **/
 #jambo-2 .bg-jambo {
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
     height: 80vh;
