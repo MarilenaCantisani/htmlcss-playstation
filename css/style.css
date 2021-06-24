@@ -22,6 +22,9 @@
 .bg-light-grey {
     background-color: #bebcbb;
 }
+.bg-dark-blue {
+    background-color: #161c3b;
+}
 /** Border utility **/
 .no-border {
     border: 0;
@@ -47,9 +50,6 @@
     height: 80vh;
 }
 
-#img-play-plus {
-    background-image: url("../img/ps-plus-april-monthly-games-featured-image-block.png");
-    
-}
+
 
 
