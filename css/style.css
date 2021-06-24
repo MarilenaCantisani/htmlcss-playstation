@@ -6,18 +6,30 @@
 .bg-center {
     background-position: center;
 }
+.bg-right {
+    background-position: right;
+}
 .bg-size-cover {
     background-size: cover;
+}
+.bg-size-contain {
+    background-size: contain;
 }
 /** Background - color **/
 .bg-grey {
     background-color: #1f1f1f;
 }
+.bg-light-grey {
+    background-color: #bebcbb;
+}
 /** Border utility **/
 .no-border {
     border: 0;
 }
-
+/** Size utility **/
+.h-60 {
+    height: 60vh;
+}
 
 /* BODY */
 /** JAMBO-1  section **/
@@ -34,4 +46,10 @@
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
     height: 80vh;
 }
+
+#img-play-plus {
+    background-image: url("../img/ps-plus-april-monthly-games-featured-image-block.png");
+    
+}
+
 
