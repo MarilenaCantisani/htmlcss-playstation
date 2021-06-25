@@ -1,10 +1,13 @@
-/*? UTILITY ?*/
+/* UTILITY */
 /** Background - color **/
-.bg-grey {
+.bg-dark-grey {
     background-color: #1f1f1f;
 }
-.bg-light-grey {
+.bg-grey {
     background-color: #bebcbb;
+}
+.bg-light-grey {
+    background-color: #d9dadc;
 }
 .bg-dark-blue {
     background-color: #161c3b;
@@ -20,23 +23,31 @@
 .h-80 {
     height: 80vh;
 }
-.h-60 {
-    height: 60vh;
-}
 .h-15 {
     height: 15px;
 }
-
 /** font-size **/
-.f-10 {
-    font-size: 10px;
+.f-6 {
+    font-size: 6px;
 }
+.f-12 {
+    font-size: 12px;
+} 
 .f-14 {
     font-size: 14px;
 }
 /** Margin/padding **/
 .mt-112 {
     margin-top: 112px;   
+}
+.mt-80 {
+    margin-top: 80px;
+}
+.mb-40 {
+    margin-bottom: 40px;
+}
+.mb-60 {
+    margin-bottom: 60px;
 }
 /** Border-radius **/
 .br-30 {
