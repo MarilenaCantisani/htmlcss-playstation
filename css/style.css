@@ -37,5 +37,10 @@
 .mt-112 {
     margin-top: 112px;   
 }
+/** Border-radius **/
+.br-20 {
+    border-radius: 20px;
+}
+
 
 
