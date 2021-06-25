@@ -1,20 +1,4 @@
 /*? UTILITY ?*/
-/* Background - utility */
-.bg-no-repeat {
-    background-repeat: no-repeat;
-}
-.bg-center {
-    background-position: center;
-}
-.bg-right {
-    background-position: right;
-}
-.bg-size-cover {
-    background-size: cover;
-}
-.bg-size-contain {
-    background-size: contain;
-}
 /** Background - color **/
 .bg-grey {
     background-color: #1f1f1f;
@@ -27,10 +11,6 @@
 }
 .bg-blue {
     background-color: #00439c;
-}
-/* Border utility */
-.no-border {
-    border: 0;
 }
 /* Size utility */
 /** Height/width **/
@@ -47,25 +27,5 @@
 .mt-112 {
     margin-top: 112px;   
 }
-/* Style utility */
-.list-style-none {
-    list-style-type: none;
-}
-
-/* BODY */
-/** JAMBO-1  section **/
-#text-jambo-1 {
-    height: calc(100vh - 112px);
-}
-#jambo-1 .bg-jambo {
-    background-image: url("../img/jumbo-bg.png");
-    height: calc(100vh - 112px);
-}
-/** JAMBO-2  section **/
-#jambo-2 .bg-jambo {
-    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
-}
-
-
 
 
