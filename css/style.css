@@ -18,7 +18,8 @@
 .bg-dark-orange {
     background-color: #cd3d0f;
 }
-/* Size utility */
+
+/* SIZE UTILITY */
 /** Height/width **/
 .h-80 {
     height: 80vh;
@@ -54,5 +55,16 @@
     border-radius: 30px;
 }
 
-
-
+/* HOVER EFFECTS */
+/** Video-games section **/
+#video-games .container .row .col-6 a img:hover {
+    transform: translateY(-10px);
+    transition: 1s ease-out;
+}
+/** Console-5 section **/
+#console-5 .container .row-product .col-4 a {
+    opacity: 0.5;
+}
+#console-5 .container .row-product .col-4 a:hover{
+    opacity: 1;
+}
