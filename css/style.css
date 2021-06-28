@@ -93,7 +93,30 @@
 #console-5 .container .row-product .col-4 a:hover{
     opacity: 1;
 }
-
-
-
-
+/** Button effects **/
+button {
+    box-shadow: 0 0 0 3px transparent;
+}
+#btn-black-header:hover {
+    background-color: #5c6268;
+    box-shadow: 0 0 0 2px #5c6268;
+    border: 1px solid white;
+}
+#jambo-1 .btn-hover-orange:hover, #jambo-2 .btn-hover-orange:hover {
+    box-shadow: 0 0 0 2px #cd3d0f;
+    border: 1px solid black;
+}
+#console-5 .btn-hover-blue:hover, #console-4 .btn-hover-blue:hover  {
+    box-shadow: 0 0 0 2px #0b5ed7;
+    border: 1px solid white;
+}
+#play-plus .btn-hover-light-grey:hover{
+    box-shadow: 0 0 0 2px #c3c3c3;
+}
+#play-now .btn-now {
+    border-color: white;
+}
+#play-now .btn-hover-white:hover {
+    box-shadow: 0 0 0 2px white;
+    border: 1px solid #161c3b;
+}
