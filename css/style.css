@@ -56,6 +56,31 @@
 }
 
 /* HOVER EFFECTS */
+/** Header-nav section **/
+#header-nav a{
+    color: black;
+}
+#header-nav a:hover {
+    color: #00439c;
+}
+#header-nav .nav-sx li a::after, #header-nav .nav-dx li:first-child a::after{
+    content: url("../img/chevron-down-solid.svg");
+    display: inline-block;
+    height: 100%;
+    width: 12px;
+    position: relative;
+    top: 3px;
+    left: 6px;
+}
+#header-nav .nav-sx li a:hover::after, #header-nav .nav-dx li:first-child a:hover:after {
+    content: url("../img/chevron-down-solid-hover.svg");
+    display: inline-block;
+    height: 100%;
+    width: 12px;
+    position: relative;
+    top: 3px;
+    left: 6px;
+}
 /** Video-games section **/
 #video-games .container .row .col-6 a img:hover {
     transform: translateY(-10px);
@@ -68,3 +93,7 @@
 #console-5 .container .row-product .col-4 a:hover{
     opacity: 1;
 }
+
+
+
+
